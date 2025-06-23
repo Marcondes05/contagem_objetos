@@ -53,7 +53,6 @@ pip install opencv-python numpy
 
 ```bash
 git clone https://github.com/Marcondes05/contagem_objetos.git
-cd contagem_objetos
 ```
 
 2. Certifique-se de ter as imagens `seeds.png` e `chocolates.jpg` na pasta do projeto (ou ajuste os caminhos no script).
@@ -61,7 +60,7 @@ cd contagem_objetos
 3. Execute o script:
 
 ```bash
-python contar_objetos.py
+python contagem_aprimorada.py
 ```
 
 4. As imagens de saída `resultado_seeds.png` e `resultado_chocolates.jpg` serão geradas com os objetos destacados e a contagem exibida.
