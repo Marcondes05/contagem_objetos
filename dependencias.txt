@@ -1,0 +1,3 @@
+pip install pipreqs
+pipreqs . --enconding=utf-8
+pip install -r requirements.txt
